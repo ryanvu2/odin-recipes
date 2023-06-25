@@ -10,6 +10,9 @@ h1 {
     text-align: center;
     background-color: pink;
     color: brown;
+}
+
+#mainHeader{
     margin-bottom: -20px;
 }
 
@@ -20,9 +23,20 @@ h1 {
     font-weight: bold;
 }
 
-img {
+.horizontalImage {
     height: auto;
-    width: 200px;
+    width: 400px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.verticalImage{
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .ingredients, .steps
@@ -56,14 +70,6 @@ li{
 
 .buttonContainer{
     display: inline-block;
-}
-
-#rat {
-    height: auto;
-    width: 400px;
-    display: block;
-    margin: 30px auto;
-    text-align: center;
 }
 
 .recipeCard{
