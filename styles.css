@@ -43,6 +43,7 @@ h1 {
 {
     background-color: pink;
     font-weight: bolder;
+    margin-left: 10px;
 }
 
 p{
@@ -80,7 +81,7 @@ li{
     margin: auto;
 }
 
-#intro
+.descrip
 {
     background-color: pink;
     margin: 30px 10px;
