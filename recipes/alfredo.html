@@ -3,6 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <title>Document</title>
+        <!--When Linking CSS here, needs "../" bc we need to go to the 
+        parent directory in order to access styles.css -->
+        <link rel = "stylesheet" href = "../styles.css">
     </head>
     <body>
         <h1>Alfredo</h1>
@@ -11,16 +14,16 @@
         <p>This is a delicious, creamy alfredo that I have made for myself and my brother. It's a simple recipe that can be done by anyone.</p>
         <p>Cooking this up with my little brother is a way that I get to bond with him. Watching him enjoy this meal is more than I can ask for.</p>
         
-        <h2>Ingredients</h2>
+        <h2 class = "ingredients">Ingredients</h2>
         <ul>
-            <li>Parmesan Cheese</li>
-            <li>Heavy Whipping Cream</li>
+            <li class = "dairy">Parmesan Cheese</li>
+            <li class = "dairy">Heavy Whipping Cream</li>
             <li>Garlic</li>
             <li>Fettucini Pasta</li>
-            <li>Butter</li>
+            <li class = "dairy">Butter</li>
         </ul>
 
-        <h2>Steps</h2>
+        <h2 class = "steps">Steps</h2>
         <ol>
             <li>Boil pasta</li>
             <li>Throw garlic and butter into pan</li>

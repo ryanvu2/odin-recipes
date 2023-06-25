@@ -1,0 +1,84 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: #c2a3d1;
+}
+
+h1 {
+    text-align: center;
+    background-color: pink;
+    color: brown;
+    margin-bottom: -20px;
+}
+
+.recipeNames {
+    text-align: center;
+    list-style-type: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+img {
+    height: auto;
+    width: 200px;
+}
+
+.ingredients, .steps
+{
+    background-color: pink;
+    font-weight: bolder;
+}
+
+p{
+    background-color: lightblue;
+}
+
+li{
+    font-weight: bold;
+}
+
+.dairy, .dairyWarning {
+    font-weight: bolder;
+    color: red;
+}
+
+.button
+{
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 6px;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+
+.buttonContainer{
+    display: inline-block;
+}
+
+#rat {
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.recipeCard{
+    width: 600px;
+    border: 6px dashed brown;
+    background-color: pink;
+    display: block;
+    margin: auto;
+}
+
+#intro
+{
+    background-color: pink;
+    margin: 30px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Helvetica;
+}
